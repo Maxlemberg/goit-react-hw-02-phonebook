@@ -1,0 +1,43 @@
+.input {
+  width: 220px;
+  height: 20px;
+  border-radius: 5px;
+  border: 2px solid royalblue;
+  margin-left: 5px;
+  outline: none;
+}
+
+.input:focus {
+  border: 2px solid rgb(99, 43, 172);
+  box-shadow: 0 0 10px rgb(99, 43, 172);
+}
+
+.form {
+  display: flex;
+  justify-content: space-around;
+}
+
+.label {
+  display: block;
+  font-size: 18px;
+}
+
+.disabled {
+  border-radius: 5px;
+
+  outline: none;
+}
+
+.button {
+  composes: disabled;
+  border: 2px solid royalblue;
+  cursor: pointer;
+  color: royalblue;
+  font-weight: 700;
+}
+
+.button:hover {
+  border: 2px solid rgb(99, 43, 172);
+  box-shadow: 0 0 10px rgb(99, 43, 172);
+  color: rgb(99, 43, 172);
+}

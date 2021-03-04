@@ -1,0 +1,39 @@
+.itemLi {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px auto 0;
+  list-style: none;
+  padding: 0;
+  width: 350px;
+}
+
+.button {
+  width: 70px;
+  background-color: rgb(228, 219, 219);
+  box-shadow: 0 0 5px rgb(70, 70, 70);
+  cursor: pointer;
+  text-align: center;
+  color: rgb(175, 6, 6);
+  font-weight: 700;
+  margin-left: 10px;
+  display: block;
+  border-radius: 5px;
+  border-color: royalblue;
+}
+
+.button:hover {
+  background-color: rgb(175, 6, 6);
+  color: white;
+}
+
+.text {
+  font-size: 22px;
+  font-weight: 400;
+  display: inline-block;
+}
+
+.list {
+  display: block;
+  margin: auto;
+  padding: 0;
+}
